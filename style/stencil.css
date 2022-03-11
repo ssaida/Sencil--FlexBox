@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: silver;
+  font-family: sans-serif;
+}
+.container-fluid{
+  max-width: 100%;
+  padding: 0 8px;
+}
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+header{
+  min-height: 20px;
+  background-color: #000;
+  color: #fff;
+}
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h2{
+  color: gold;
+}
+header span{
+  font-size: 16px;
+  color: #fff;
+}
+header a{
+  text-decoration: none;
+  color: #fff;
+  padding: 0 4px;
+}
+header a:hover{
+  color: gold;
+  text-decoration: underline;
+}
+.search input{
+  padding: 2px 4px;
+  border: none;
+  border-radius: 4px;
+}
+.strip{
+  min-height: 300px;
+  background: url(/images/1646676474159.jpg);
+}
+.strip .container{
+  display: flex;
+  justify-content: start;
+  align-self: flex-end;
+  padding: 4px;
+}
+main{
+  min-height: 400px;
+  background-color: lightgray;
+}
+main .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .box{
+  width: 24%;
+  margin: 20px 0;
+  padding-bottom: 8px;
+  text-align: center;
+  background-color: #333;
+
+}
+main .box h3{
+  background-color: #474747;
+  padding: 4px 8px;
+  color: #fff;
+}
+main .box img{
+  width: 40%;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+main .box p{
+  color: #fff;
+  margin: 8px 0;
+  text-align: justify;
+  padding: 0 8px;
+}
+main .box a{
+  text-decoration: none;
+  color: goldenrod;
+  background-color: #000;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+footer{
+  min-height: 100px;
+  background: olive;
+}
+footer .container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .box{
+  margin: 20px 0;
+}
+footer .box h3{
+  background-color: forestgreen;
+  padding: 2px 4px;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+footer li{
+  list-style-type: none;
+  margin: 4px 0;
+}
+footer a{
+  text-decoration: none;
+  color: #fff;
+}
+footer .contact{
+  text-align: center;
+}
+footer img{
+  width: 100px;
+}
